@@ -1,0 +1,378 @@
+.cover{
+    height: 70px;
+    
+    background: rgba(76,76,76,1);
+    background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 30%, rgba(71,71,71,1) 48%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(30%, rgba(102,102,102,1)), color-stop(48%, rgba(71,71,71,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+    background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 30%, rgba(71,71,71,1) 48%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 30%, rgba(71,71,71,1) 48%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 30%, rgba(71,71,71,1) 48%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 30%, rgba(71,71,71,1) 48%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+
+.cover img{
+    width: 130px;
+    margin-top: -12px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.parallax img{
+    height: 300px;
+    width: 100%;
+    position: relative;
+	display: inline-block;
+}
+
+.btn-edit-cover{
+    background: transparent;
+    font-size: 50px;
+}
+.main-page{
+    background-color: lightgray;
+}
+
+.background-profile{
+    width: 80%;
+    border: solid 1px black;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.background-profile-info{
+    background-color: white;
+    margin-top: -80px;
+}
+
+.col-md-3 img{
+    height: 250px;
+}
+
+.edit h3{
+    margin-top: -2px;
+    color: white;
+}
+
+.edit h4{
+    margin-top: -2px;
+    color: white;
+}
+
+.edit:hover{
+    cursor: pointer;
+}
+
+.editButton{
+    display: none;
+}
+
+.editCover {
+	padding-top: 150px;	
+	padding-right: 620px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+.parallax:hover .editCover {
+	display: block;
+}
+
+.background-profile-info:hover .editButton{
+    display: block;
+}
+
+.background-profile-info:hover .timer{
+    margin-left: 41px;
+}
+
+.background-profile-info:hover .connectText{
+    margin-left: 588px;
+}
+
+.background-profile-info:hover .btnContact{
+    display: block;
+    margin-left: -88px;
+}
+
+.background-profile-info:hover .btnContact{
+    display: block;
+    margin-left: -88px;
+}
+
+.col-md-5{
+    padding: 0px;
+}
+
+.edit-form{
+    position: absolute;
+    margin-left: 200px;
+}
+.col-md-3{
+    padding: 0px;
+}
+
+.col-md-1{
+    padding: 0px;
+}
+
+.col-md-7{
+    padding: 0px;
+}
+
+.btn-edit{
+    margin-left: 15px;
+}
+
+#btnCode{
+    margin-top:-5px;
+    margin-left: -50px;
+}
+
+#btnWorkplace{
+    margin-left: -125px;
+    margin-top: -10px;
+}
+
+.edit h5{
+    margin-top: -2px !important;
+    color: darkgray !important;
+    
+}
+
+.col-md-6 h5{
+    color: black;
+    margin-top: 9px;
+}
+
+.col-md-2 h6{
+    color: darkgray;
+}
+
+
+.col-md-8 h3:nth-child(1){
+    font-weight: bold;
+}
+
+
+
+.Specific-Contact{
+    background-color: rgb(242,242,242);
+    height: 70px;
+}
+
+.background{
+    margin-top: 40px;
+    width: 80%;
+    background-color: white;
+    border: solid 1px black;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.Public-Contact{
+    border-top: dashed 1px black;
+}
+
+
+#contact-linked{
+    color: black;
+    margin-top: 10px !important;
+}
+
+.btnContact{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+#contact-linked:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.shape{
+    background-color: black;
+    width: 105px;
+    margin-left: 15px;
+}
+
+.shape h5{
+    color: white;
+    font-weight: 520;
+}
+
+.img-background{
+    width: 45px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.background-title{
+    margin-top: 25px;    
+}
+
+.edit-form{
+    position:absolute !important;
+    display: block;
+    margin-left: 260px;
+    margin-top: -30px;
+    border: 1px solid lightgray;
+    background: white;
+}
+
+.edit-code-form{
+    margin-left: 250px !important;
+}
+
+.form-inline button{
+    margin: 5px;
+}
+
+.form-inline input{
+    margin: 5px;
+    color: black;
+}
+
+
+#btnFacebook{
+    margin-top: 5px;
+    margin-left: -80px;
+    background: white;
+}
+
+#btnGmail{
+    margin-top: 5px;
+    margin-left: -80px;
+    background: white;
+}
+
+#btnLinkedIn{
+    margin-top: 1px;
+    margin-left: -120px;
+}
+
+.btn-circle{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 20px;
+    line-height: 1.45;
+    border-radius: 30px;
+    background: transparent;
+}
+  
+
+.btn-circle:hover {
+    background:whitesmoke;
+}
+
+.dialog form{
+    text-align: center;
+}
+
+.dialog form input{
+    color: black;
+}
+
+.submit{
+    width:30%;
+    border:1px solid #59b4d4;
+    background:#0078a3;
+    color:#eee;
+    padding:3px 0;
+    border-radius:5px;
+    margin-top:10px;
+    cursor:pointer
+}
+
+.submit:hover {
+    border:1px solid #666;
+    background:#555;
+    color:#fff
+}
+.ui-dialog .ui-dialog-content {
+    padding:2em
+}
+
+.btn-edit-skill{
+    margin-top: 5px;
+    display:none;
+}
+
+.background-skill:hover .col-md-6 .col-md-6 .btn-edit-skill {
+    display: block;
+}
+
+.edit-skill-form{
+    margin-left: 100px;
+}
+
+.btn-edit-project{
+    display: none;
+    margin-top: 5px;
+    margin-left: -50px;
+}
+
+.btn-edit-school{
+    display: none;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.btn-edit-exp{
+    display: none;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.background-project:hover .btn-edit-project {
+    display: block;
+}
+
+.background-education:hover  .btn-edit-school {
+    display: block;
+}
+
+.background-experience:hover .btn-edit-exp{
+    display: block;
+}
+
+.row .timer{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.connection{
+    margin-left: 650px;
+    margin-top: -7px;
+}
+
+.connectText{
+    margin-left: 575px;
+    margin-top: -12px;
+    color:lightgray;
+}
+
+.edit-exp-form
+{
+    margin-top: -65px;
+}
